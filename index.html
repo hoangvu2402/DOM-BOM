@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DOM & BOM</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>DOM & BOM</h1>
+    </div>
+    
+    <div class="main">
+        <h2 class="title">Get Facebook ID</h2>
+        
+        <form class="input-wrap">
+            <p>Link: <span class="error"></span></p>
+            <input type="text" class="input-node" id="input" placeholder="https://www.facebook.com/j2teamnnl/">
+            <div class="input-button">
+                <button type="button" onclick="ID()" class="submit">SUBMIT</button>
+                <button type="button" onclick="exit()" class="resest">RESEST</button>
+            </div>
+        </form>
+
+        <div class="end"></div>
+        <div class="result"></div>
+    </div>
+
+    <script src="./action.js"></script>
+</body>
+</html>
